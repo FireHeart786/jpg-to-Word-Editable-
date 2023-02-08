@@ -4,9 +4,9 @@ import cv2
 
 import docx
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Shahid\Python\Lib\Tesseract-OCR\tesseract.exe"
 
-image = cv2.imread("image.jpg")
+image = cv2.imread("Screenshot-cat.jpg")
 
 text = pytesseract.image_to_string(image)
 
